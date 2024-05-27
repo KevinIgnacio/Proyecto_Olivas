@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #d4a373;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 150px;
+}
+
+/* Register Container */
+.register-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+}
+
+.register-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.register-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-container .register {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.register-container .register:hover {
+    background-color: #0056b3;
+}
+
+/* Extra Styles */
+.inicio_sesion {
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #8d5524;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://example.com/pasteleria.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.menu, .history, .gallery, .contact {
+    margin-bottom: 40px;
+}
+
+.menu h2, .history h2, .gallery h2, .contact h2 {
+    color: #8d5524;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 1.5%;
+    border-radius: 10px;
+}
+
+footer {
+    background: #d4a373;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
